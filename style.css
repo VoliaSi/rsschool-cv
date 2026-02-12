@@ -45,9 +45,26 @@
 
   .heading {
     display: flex;
-    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
     background-color: #a8a095;
-    height: 100px;
+  }
+
+  .heading img {
+    width: 160px;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .heading-text h1 {
+    margin: 0;
+    font-size: 32px;
+  }
+
+  .heading-text h2 {
+    margin: 8px 0 0 0;
+    font-weight: 400;
+    font-size: 20px;
   }
 
 
